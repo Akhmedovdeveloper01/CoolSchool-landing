@@ -13,9 +13,11 @@ export function Hero() {
             <p className="text-xl sm:text-2xl text-gray-700 mb-8">
               Разговорные курсы для взрослых в Ташкенте
             </p>
-            <button className="bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-10 py-5 rounded-full text-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
-              Бесплатный пробный урок
-            </button>
+            <a href="#contact">
+              <button className="bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-10 py-5 rounded-full text-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+                Бесплатный пробный урок
+              </button>
+            </a>
           </div>
 
           {/* Right column - Hero image */}
