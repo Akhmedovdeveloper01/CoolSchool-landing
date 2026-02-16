@@ -1,0 +1,9 @@
+{
+    "include": ["src/**/*", "src/**/*.css", "src/**/*.d.ts"],
+    "compilerOptions": {
+        "types": ["vite/client"],
+        "moduleResolution": "bundler",
+        "noUncheckedSideEffectImports": false,
+        "jsx": "react-jsx"
+    }
+}
